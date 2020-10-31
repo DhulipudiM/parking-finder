@@ -2,8 +2,11 @@
 https://create-react-app.dev/docs/getting-started/
 
 Steps 
+
 npx create-react-app parking-finder
+
 cd parking-finder
+
 # Runs the Project
 npm start
 
