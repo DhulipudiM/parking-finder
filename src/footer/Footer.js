@@ -8,6 +8,11 @@ export const Footer = () => {
         <>
         <hr/>
         <div id="footer">
+        <div id="f1">
+        <a>
+        <SvgFooter style={{maxWidth: "7%", fill: "#1fa637", position: "absolute", top: "25%"}}/>
+      </a>
+      </div>
        <div id="f2">
            <ul>
           { FooterItems.map((item, index) => {
@@ -32,18 +37,17 @@ export const Footer = () => {
            </ul>
        </div>
        <div id="f4">
-<ul>
-<li id="fk">
-<a><i class="fa fa-facebook-square" aria-hidden="true">Fb</i>
-</a>
-               </li>
-               <li>
-<a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="icon-facebook">LinkedIn</a>
-               </li>
-           </ul>
+    <ul>
+    <li id="fk">
+        <a><i class="fa fa-facebook-square" aria-hidden="true">Fb</i>
+        </a>
+    </li>
+    <li>
+        <a><i class="fa fa-facebook-square" aria-hidden="true">LinkedIn</i>
+        </a>
+    </li>
+    </ul>
        </div>
-         
-          
             </div>
             <hr/>
         </>
