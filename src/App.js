@@ -7,7 +7,8 @@ function App() {
     <div className="App">
       <Navbar/>
       {/* <h1 className="blue-text">Parking Finder Coming Soon...</h1>
-      <Footer/> */}
+      */}
+       <Footer/>
     </div>
   );
 }
