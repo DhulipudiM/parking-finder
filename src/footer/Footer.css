@@ -1,0 +1,45 @@
+li {
+list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #8d9297;
+    line-height:  2.14;
+    letter-spacing: normal;
+}
+
+a:hover {
+    letter-spacing: normal;
+    color: #1fa637;
+    line-height: 2.14;
+    cursor: pointer;
+}
+
+#f3 {
+    position: absolute;
+ top: 10%;
+    right:40%;
+}
+
+#f4 {
+    position: absolute;
+ top: 10%;
+    right:7%;
+}
+#f2 {
+    position: absolute;
+ top: 10%;
+    left:20%;
+}
+#footer {
+    /* border: 1px solid black; */
+
+    min-height: 400px;
+    
+}
+
+#fl {
+    position: absolute;
+    left: 3px;
+}
