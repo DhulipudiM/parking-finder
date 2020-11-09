@@ -31,5 +31,5 @@ a:hover {
 }
 #footer {
     display: flex;
-    min-height: 40vh;
+    min-height: 30vh;
 }

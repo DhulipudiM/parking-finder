@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import {ReactComponent as SvgFooter} from "../assets/footer.svg";
+import {FooterItems, FooterItemLast} from './RenderFooter';
 
 export const Footer = () => {
     return(
@@ -9,65 +10,25 @@ export const Footer = () => {
         <div id="footer">
        <div id="f2">
            <ul>
-               <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">About</a>
-               </li>
-               <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">How it works</a>
-               </li>
-               <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">Help</a>
-               </li>
-               <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">Get free parking</a>
-               </li>
-               <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">Student discount</a>
-               </li>
-               <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">Jobs</a>
-               </li>
-               <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">Blog</a>
-               </li>
-               <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">Media</a>
-               </li>
-               <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">Contact Us</a>
-               </li>
+          { FooterItems.map((item, index) => {
+                return (
+                    <li key={index}>
+                        <a href={item.url} to={item.url} >{item.title}</a>
+                    </li>
+                )
+           })}
            </ul>
            
        </div>
        <div id="f3">
        <ul>
-            <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">Cashless parking solution</a>
-               </li>
-               <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">Car park management</a>
-               </li>
-               <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">Hotel car parks</a>
-               </li>
-               <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">Rent out your driveway</a>
-               </li>
-               <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">Airport parking</a>
-               </li>
-               <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">Stadium parking</a>
-               </li>
-               <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">Station parking</a>
-               </li>
-               <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">City parking</a>
-               </li>
-               <li>
-               <a href="/about/how-it-works/" to="about/how-it-works/">Corporate accounts</a>
-               </li>
+       { FooterItemLast.map((item, index) => {
+                return (
+                    <li key={index}>
+                        <a href={item.url} to={item.url} >{item.title}</a>
+                    </li>
+                )
+           })}
            </ul>
        </div>
        <div id="f4">
