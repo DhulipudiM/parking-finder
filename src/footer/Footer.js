@@ -39,10 +39,10 @@ export const Footer = () => {
        <div className="f4">
     <ul className="fk">
     <li className="fb">
-        <a  className="ffb"><i className="fab fa-facebook fa-2x"></i>
+        <a  className="ffb" href="https://www.facebook.com/JustParkHQ/" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook fa-2x"></i>
         </a>
     </li>
-    <li className="tw">
+    <li className="tw" href="https://www.twitter.com/JustPark/" target="_blank" rel="noopener noreferrer">
         <a  className="fli"><i className="fab fa-twitter fa-2x"></i>
         </a>
     </li>
