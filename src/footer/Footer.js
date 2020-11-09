@@ -78,7 +78,8 @@ export const Footer = () => {
        <div id="f4">
 <ul>
 <li id="fl">
-<a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="icon-facebook">Fb</a>
+<a><i class="fa fa-facebook-square" aria-hidden="true">Fb</i>
+</a>
                </li>
                <li>
 <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="icon-facebook">LinkedIn</a>
