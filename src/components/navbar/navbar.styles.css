@@ -1,0 +1,22 @@
+.NavBarItems {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  justify-content: space-between;
+  padding: 0.5em 2em;
+}
+
+.NavBar-logo {
+  fill: #1fa637;
+  position: absolute;
+  max-width: 90px;
+}
+
+.NavBar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.NavBar-item {
+  margin: 0 20px;
+}

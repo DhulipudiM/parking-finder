@@ -7,15 +7,14 @@ export const Navbar = () => {
   return(
     <nav className="NavBarItems">
       <a>
-        <SvgFooter style={{maxWidth: "5%", fill: "#1fa637", position: "absolute",left:"3%", top: "13%"}}/>
+        <SvgFooter className="NavBar-logo"/>
       </a>
-      <h1 className="navbar-logo"></h1>
       <div className="menu-icon"></div>
-      <ul>
+      <ul className="NavBar-menu">
         {
           MenuItems.map((item, index) => {
             return (
-              <li key={index}>
+              <li key={index} className="NavBar-item">
                 <a className={item.cName} href={item.url}>
                 {item.title}
                 </a>

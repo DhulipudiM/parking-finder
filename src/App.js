@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <h1 className="blue-text">Parking Finder Coming Soon...</h1>
-      <Footer/>
+      {/* <h1 className="blue-text">Parking Finder Coming Soon...</h1>
+      <Footer/> */}
     </div>
   );
 }
