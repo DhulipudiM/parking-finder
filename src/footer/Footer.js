@@ -42,8 +42,8 @@ export const Footer = () => {
         <a  className="ffb" href="https://www.facebook.com/JustParkHQ/" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook fa-2x"></i>
         </a>
     </li>
-    <li className="tw" href="https://www.twitter.com/JustPark/" target="_blank" rel="noopener noreferrer">
-        <a  className="fli"><i className="fab fa-twitter fa-2x"></i>
+    <li className="tw">
+        <a  className="fli" href="https://www.twitter.com/JustPark/" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter fa-2x"></i>
         </a>
     </li>
     </ul>
