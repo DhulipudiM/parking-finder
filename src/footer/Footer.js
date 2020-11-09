@@ -7,13 +7,13 @@ export const Footer = () => {
     return(
         <>
         <hr/>
-        <div id="footer">
-        <div id="f1">
+        <div className="footer">
+        <div className="f1">
         <a>
-        <SvgFooter style={{maxWidth: "5%", fill: "#1fa637", position: "absolute", top: "23%"}}/>
+        <SvgFooter className="svgFooter"/>
       </a>
       </div>
-       <div id="f2">
+       <div className="f2">
            <ul>
           { FooterItems.map((item, index) => {
                 return (
@@ -25,7 +25,7 @@ export const Footer = () => {
            </ul>
            
        </div>
-       <div id="f3">
+       <div className="f3">
        <ul>
        { FooterItemLast.map((item, index) => {
                 return (
@@ -36,14 +36,14 @@ export const Footer = () => {
            })}
            </ul>
        </div>
-       <div id="f4">
-    <ul id="fk">
+       <div className="f4">
+    <ul className="fk">
     <li className="fb">
-        <a  id="ffb"><i class="fab fa-facebook"></i>
+        <a  className="ffb"><i class="fab fa-facebook"></i>
         </a>
     </li>
     <li className="tw">
-        <a  id="fli"><i class="fab fa-twitter"></i>
+        <a  className="fli"><i class="fab fa-twitter"></i>
         </a>
     </li>
     </ul>

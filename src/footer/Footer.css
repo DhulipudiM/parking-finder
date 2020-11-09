@@ -16,21 +16,33 @@ a:hover {
     cursor: pointer;
 }
 
-#f3, #f2, #f1  {
+.f3, .f2, .f1  {
     display: flex;
     flex-grow: 1;
 }
 
 .tw, .fb {
-padding: 8px;
+    padding: 8px;
+    text-align: left;
 }
 
 
- #fk, #f4 {
+ .fk, .f4 {
     display: flex;
 }
 
-#footer {
+.footer {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
     display: flex;
-    min-height: 30vh;
+    min-height: 25vh;
 }
+
+.svgFooter {
+    fill: #1fa637;
+    position: absolute;
+    max-width: 8%;
+    top:12%;
+    left: 2%;
+    }
