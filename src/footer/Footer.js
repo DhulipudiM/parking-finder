@@ -37,13 +37,13 @@ export const Footer = () => {
            </ul>
        </div>
        <div id="f4">
-    <ul>
-    <li id="fk">
-        <a><i class="fa fa-facebook-square" aria-hidden="true">Fb</i>
+    <ul id="fk">
+    <li>
+        <a  id="ffb"><i class="fa fa-facebook-square" aria-hidden="true">Fb</i>
         </a>
     </li>
     <li>
-        <a><i class="fa fa-facebook-square" aria-hidden="true">LinkedIn</i>
+        <a  id="fli"><i class="fa fa-facebook-square" aria-hidden="true">LinkedIn</i>
         </a>
     </li>
     </ul>

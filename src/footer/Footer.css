@@ -16,28 +16,19 @@ a:hover {
     cursor: pointer;
 }
 
-#f3 {
+#f3, #f2, #f1  {
     display: flex;
     flex-grow: 1;
 }
 
-#f4 {
+#ffb {
     display: flex;
-  
 }
 
-#fk {
-    position: absolute;
-    right: 5%;
-}
-#f2 {
+#fli, #fk, #f4 {
     display: flex;
-    flex-grow: 1;
 }
-#f1 {
-    display: flex;
-    flex-grow: 1;
-}
+
 #footer {
     display: flex;
     min-height: 30vh;
