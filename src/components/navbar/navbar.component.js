@@ -23,8 +23,8 @@ export const Navbar = () => {
             }
           )
         }
-        <li>Login</li>
-        <li>Sign Up</li>
+        <li className="NavBar-login NavBar-item">Login</li>
+        <li className="NavBar-signup NavBar-item">Sign Up</li>
       </ul>
     </nav>
   )
