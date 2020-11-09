@@ -39,11 +39,11 @@ export const Footer = () => {
        <div className="f4">
     <ul className="fk">
     <li className="fb">
-        <a  className="ffb"><i class="fab fa-facebook"></i>
+        <a  className="ffb"><i className="fab fa-facebook fa-2x"></i>
         </a>
     </li>
     <li className="tw">
-        <a  className="fli"><i class="fab fa-twitter"></i>
+        <a  className="fli"><i className="fab fa-twitter fa-2x"></i>
         </a>
     </li>
     </ul>
