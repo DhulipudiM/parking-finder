@@ -34,9 +34,7 @@ a:hover {
 }
 #footer {
     /* border: 1px solid black; */
-
-    min-height: 400px;
-    
+    min-height: 40vh;
 }
 
 #fl {
