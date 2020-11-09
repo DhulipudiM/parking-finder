@@ -21,12 +21,12 @@ a:hover {
     flex-grow: 1;
 }
 
-#ffb {
-    display: flex;
+.tw, .fb {
+padding: 8px;
 }
 
 
-#fli, #fk, #f4 {
+ #fk, #f4 {
     display: flex;
 }
 
