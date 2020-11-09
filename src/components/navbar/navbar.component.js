@@ -13,7 +13,7 @@ export const Navbar = () => {
       <div className="menu-icon"></div>
       <ul>
         {
-          MenuItems.map(item, index => {
+          MenuItems.map((item, index) => {
             return (
               <li key={index}>
                 <a className={item.cName} href={item.url}>

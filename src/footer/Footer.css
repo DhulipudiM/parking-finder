@@ -17,27 +17,19 @@ a:hover {
 }
 
 #f3 {
-    position: absolute;
- top: 10%;
-    right:40%;
+    display: flex;
+    flex-grow: 1;
 }
 
 #f4 {
-    position: absolute;
- top: 10%;
-    right:7%;
+    display: flex;
+    flex-grow: 1;
 }
 #f2 {
-    position: absolute;
- top: 10%;
-    left:20%;
+    display: flex;
+    flex-grow: 1;
 }
 #footer {
-    /* border: 1px solid black; */
+    display: flex;
     min-height: 40vh;
-}
-
-#fl {
-    position: absolute;
-    left: 3px;
 }

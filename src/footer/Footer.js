@@ -5,13 +5,8 @@ import {ReactComponent as SvgFooter} from "../assets/footer.svg";
 export const Footer = () => {
     return(
         <>
-        <div id="footer">
         <hr/>
-            <div id="f1">
-                <a>
-                <SvgFooter style={{maxWidth: "5%", fill: "#1fa637", position: "absolute",left:"3%", top: "13%"}}/>
-                </a>
-                </div>
+        <div id="footer">
        <div id="f2">
            <ul>
                <li>
@@ -77,7 +72,7 @@ export const Footer = () => {
        </div>
        <div id="f4">
 <ul>
-<li id="fl">
+<li id="fk">
 <a><i class="fa fa-facebook-square" aria-hidden="true">Fb</i>
 </a>
                </li>
