@@ -38,12 +38,12 @@ export const Footer = () => {
        </div>
        <div id="f4">
     <ul id="fk">
-    <li>
-        <a  id="ffb"><i class="fa fa-facebook-square" aria-hidden="true">Fb</i>
+    <li className="fb">
+        <a  id="ffb"><i class="fab fa-facebook"></i>
         </a>
     </li>
-    <li>
-        <a  id="fli"><i class="fa fa-facebook-square" aria-hidden="true">LinkedIn</i>
+    <li className="tw">
+        <a  id="fli"><i class="fab fa-twitter"></i>
         </a>
     </li>
     </ul>
