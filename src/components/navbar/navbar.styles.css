@@ -1,7 +1,7 @@
 .NavBarItems {
   display: flex;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   justify-content: space-between;
   padding: 0.5em 2em;
 }
@@ -19,4 +19,25 @@
 
 .NavBar-item {
   margin: 0 20px;
+}
+
+.NavBar-login {
+  color: #1fa637;
+  cursor: pointer;
+}
+
+.NavBar-login:hover {
+  color: #8d9297;
+}
+
+.NavBar-signup {
+  color: #1fa637;
+  border: 1px solid #1fa637;
+  border-radius: 20px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.NavBar-signup:hover {
+  color: #8d9297;
 }
