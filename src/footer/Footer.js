@@ -10,7 +10,7 @@ export const Footer = () => {
         <div className="footer">
         <div className="f1">
         <a>
-        <SvgFooter style={{maxWidth: "5%", fill: "#1fa637", position: "absolute", top: "13%"}}/>
+        <SvgFooter className="svgFooter"/>
       </a>
       </div>
        <div className="f2">
