@@ -1,17 +1,55 @@
+header {
+  background: wheat;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 1em 2em;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background: #1d2226;
+  width: 66%;
+  visibility: unset;
+  transform: translateX(50%);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.MenuBurguer {
+  fill: #1fa637;
+  height: 24px;
+}
+
+.logo {
+  fill: #1fa637;
+  position: absolute;
+  max-width: 90px;
+  left: 38%;
+  margin-top: 0.2em;
+}
+/* 
 .NavBarItems {
   display: flex;
   align-items: center;
   font-size: 1.3rem;
+  font-weight: 500;
   justify-content: space-between;
   padding: 0.5em 2em;
-  font-family: "Nunito", sans-serif;
 }
 
-.NavBar-logo {
-  fill: #1fa637;
-  position: absolute;
-  max-width: 90px;
+.NavBarItems span {
+  width: auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+
 
 .NavBar-menu {
   display: flex;
@@ -41,4 +79,8 @@
 
 .NavBar-signup:hover {
   color: #8d9297;
-}
+} */
+
+/*******************/
+/*****RESPONSIVE****/
+/*******************/
