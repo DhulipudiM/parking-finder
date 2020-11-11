@@ -1,86 +1,125 @@
-header {
-  background: wheat;
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-  padding: 1em 2em;
-}
-
 nav {
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  background: #1d2226;
-  width: 66%;
-  visibility: unset;
-  transform: translateX(50%);
-  opacity: 0;
-  transition: all 0.3s;
+  display: flex;
+  padding: 0 4rem;
+  justify-content: space-between;
+  min-height: 10vh;
+  align-items: center;
+  background: wheat;
 }
 
-.MenuBurguer {
-  fill: #1fa637;
-  height: 24px;
+nav .burger {
+  color: #1fa637;
+  font-size: 20px;
+  display: none;
 }
 
-.logo {
+nav .logo-sm {
+  display: none;
+}
+
+nav .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo {
   fill: #1fa637;
   position: absolute;
-  max-width: 90px;
-  left: 38%;
-  margin-top: 0.2em;
+  max-width: 100px;
+  height: auto;
 }
-/* 
-.NavBarItems {
+
+nav .nav-links {
   display: flex;
-  align-items: center;
-  font-size: 1.3rem;
-  font-weight: 500;
   justify-content: space-between;
-  padding: 0.5em 2em;
-}
-
-.NavBarItems span {
-  width: auto;
-  height: 80px;
-  display: flex;
   align-items: center;
-  justify-content: center;
+  font-size: 1rem;
 }
 
-
-
-.NavBar-menu {
-  display: flex;
-  align-items: center;
-}
-
-.NavBar-item {
+nav .nav-item {
   margin: 0 20px;
 }
 
-.NavBar-login {
+.nav-login {
   color: #1fa637;
   cursor: pointer;
 }
 
-.NavBar-login:hover {
+.nav-login:hover {
   color: #8d9297;
 }
 
-.NavBar-signup {
+.nav-signup {
   color: #1fa637;
   border: 1px solid #1fa637;
   border-radius: 20px;
-  padding: 5px 20px;
+  padding: 7px 20px;
   cursor: pointer;
 }
 
-.NavBar-signup:hover {
+.nav-signup:hover {
   color: #8d9297;
-} */
+}
 
 /*******************/
 /*****RESPONSIVE****/
 /*******************/
+
+@media all and (max-width: 768px) {
+  nav .burger {
+    display: block;
+    cursor: pointer;
+  }
+
+  nav .logo-sm {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+  }
+
+  nav .nav-links {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding: 0px;
+    font-size: 0.8rem;
+    width: 80%;
+    background: rgb(21, 42, 54);
+    margin: 0;
+    transform: translateX(-500px);
+    transition: 0.5s ease-in-out;
+  }
+  .m-menu {
+    list-style-type: none;
+    position: relative;
+    text-align: center;
+    z-index: 101;
+  }
+
+  nav .mobile {
+    padding-top: 60px;
+  }
+
+  nav .nav-links li {
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  nav .nav-links li a {
+    color: #fff;
+  }
+
+  nav .logo {
+    max-width: 80px;
+  }
+
+  .nav-login {
+    color: #8d9297;
+    cursor: pointer;
+  }
+}

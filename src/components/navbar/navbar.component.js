@@ -1,21 +1,32 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { MenuItems } from './menu-items';
 import {ReactComponent as SvgFooter} from "../../assets/footer.svg";
-import {ReactComponent as MenuBurguer} from "../../assets/menu.svg";
 import "./navbar.styles.css";
 
 export const Navbar = () => {
+  const [open, setOpen] = useState(false);
   return(
-    <header>
-      <MenuBurguer className="MenuBurguer"/>
-      <SvgFooter className="logo"/>
-      <nav className="NavBarItems">
-        <ul className="NavBar-menu">
+    <div>
+      <nav> 
+        <i className="fas fa-bars burger" 
+           onClick={()=>setOpen(!open)}>
+
+        </i>
+        
+        <a className="logo-container">
+          <SvgFooter className="logo"/>
+        </a>
+        
+        <ul className="nav-links mobile" 
+            style={{transform: open ? "translateX(0px)" : ""}}>
+              <div className="logo-sm">
+          <img src="https://static.justpark.com/web/assets/header_logo_small.0050bc13.svg"/>
+        </div>
           {
             MenuItems.map((item, index) => {
               return (
-                <li key={index} className="NavBar-item">
-                  <a className={item.cName} href={item.url}>
+                <li key={index} className="nav-item">
+                  <a href={item.url}>
                   {item.title}
                   </a>
                 </li>
@@ -23,12 +34,14 @@ export const Navbar = () => {
               }
             )
           }
-          <li className="NavBar-login NavBar-item">Login</li>
-          <li className="NavBar-signup NavBar-item">Sign Up</li>
+          <li className="nav-item"><a className=" nav-login">Login</a></li>
+          <li className="nav-item"><a className="nav-signup">Sign Up</a></li>
         </ul>
       </nav>
-    </header>
+    </div>
     
   )
+
 }
+
 
