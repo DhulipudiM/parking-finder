@@ -20,24 +20,26 @@ export const Navbar = () => {
         <ul className="nav-links mobile" 
             style={{transform: open ? "translateX(0px)" : ""}}>
               <div className="logo-sm">
-          <img src="https://static.justpark.com/web/assets/header_logo_small.0050bc13.svg"/>
-        </div>
-          {
-            MenuItems.map((item, index) => {
-              return (
-                <li key={index} className="nav-item">
-                  <a href={item.url}>
-                  {item.title}
-                  </a>
-                </li>
+                <img src="https://static.justpark.com/web/assets/header_logo_small.0050bc13.svg"/>
+              </div>
+              {
+                MenuItems.map((item, index) => {
+                  return (
+                    <li key={index} className="nav-item">
+                      <a href={item.url}>
+                      {item.title}
+                      </a>
+                    </li>
+                    )
+                  }
                 )
               }
-            )
-          }
           <li className="nav-item"><a className=" nav-login">Login</a></li>
           <li className="nav-item"><a className="nav-signup">Sign Up</a></li>
         </ul>
       </nav>
+
+      <div class={`${open ? "black-overlay": " "}`} onClick={()=>setOpen(!open)}></div>
     </div>
     
   )
